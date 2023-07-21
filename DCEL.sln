@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DCEL", "DCEL.vcxproj", "{BF71D62A-F111-40BC-B2D4-1E775521D59B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF71D62A-F111-40BC-B2D4-1E775521D59B}.Debug|x64.ActiveCfg = Debug|x64
+		{BF71D62A-F111-40BC-B2D4-1E775521D59B}.Debug|x64.Build.0 = Debug|x64
+		{BF71D62A-F111-40BC-B2D4-1E775521D59B}.Debug|x86.ActiveCfg = Debug|Win32
+		{BF71D62A-F111-40BC-B2D4-1E775521D59B}.Debug|x86.Build.0 = Debug|Win32
+		{BF71D62A-F111-40BC-B2D4-1E775521D59B}.Release|x64.ActiveCfg = Release|x64
+		{BF71D62A-F111-40BC-B2D4-1E775521D59B}.Release|x64.Build.0 = Release|x64
+		{BF71D62A-F111-40BC-B2D4-1E775521D59B}.Release|x86.ActiveCfg = Release|Win32
+		{BF71D62A-F111-40BC-B2D4-1E775521D59B}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A21A2239-0D20-463E-8F0A-8125EDB5CE30}
+	EndGlobalSection
+EndGlobal

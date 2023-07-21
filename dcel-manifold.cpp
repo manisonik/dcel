@@ -2,8 +2,8 @@
 #include "dcel-manifold.h"
 
 // Eigen
-#include <Eigen/Dense>
-#include <Eigen/SparseLU>
+#include "eigen/Eigen/Dense"
+#include "eigen/Eigen/SparseLU"
 
 using namespace dcel;
 
