@@ -1,0 +1,11 @@
+{
+  "name": "dcel",
+  "version": "1.0.0",
+  "homepage": "https://github.com/manisonik/dcel",
+  "description": "Implementation of a doubly connected edge list (DCEL).",
+  "license": "MIT",
+  "dependencies": [
+    "glm",
+    "eigen3"
+  ]
+}
