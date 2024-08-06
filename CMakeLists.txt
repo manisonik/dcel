@@ -33,9 +33,8 @@ find_package(Eigen3 CONFIG REQUIRED)
 # create the shared library (DLL)
 add_library(${PROJECT_NAME} 
         dcel-manifold.cpp 
-        dcel.cpp 
-        dllmain.cpp 
-        pch.cpp
+        dcel.cpp
+        dllmain.cpp
 )
 
 target_link_libraries(${PROJECT_NAME} 
@@ -44,10 +43,6 @@ target_link_libraries(${PROJECT_NAME}
 
 target_link_libraries(${PROJECT_NAME} 
         PRIVATE Eigen3::Eigen
-)
-
-target_precompile_headers(${PROJECT_NAME} 
-        PRIVATE pch.h
 )
 
 # note that it is not CMAKE_INSTALL_PREFIX we are checking here
@@ -74,7 +69,6 @@ endif()
 set(public_headers
         dcel.h
         dcel-manifold.h
-        pch.h
 )
 
 # note that ${public_headers} has to be in quotes
@@ -98,7 +92,7 @@ install(TARGETS ${PROJECT_NAME}
 # generate and install export file
 install(EXPORT "${PROJECT_NAME}Targets"
     FILE "${PROJECT_NAME}Targets.cmake"
-    NAMESPACE ${namespace}::
+    NAMESPACE manisonik::
     DESTINATION cmake
 )
 

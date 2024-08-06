@@ -1,5 +1,30 @@
 #pragma once
-#include "pch.h"
+
+#include <windows.h>
+#include <vector>
+#include <memory>
+#include <iterator>
+#include <map>
+#include <algorithm>
+#include <cmath>
+#include <limits>
+#include <numeric>
+#include <functional>
+#include <list>
+
+#include "glm/glm.hpp"
+#include "glm/gtc/matrix_transform.hpp"
+#include "glm/gtx/matrix_transform_2d.hpp"
+#include "glm/gtx/transform.hpp"
+#include "glm/gtx/intersect.hpp"
+#include "glm/gtc/type_ptr.hpp"
+#include "glm/gtx/normal.hpp"
+#include "glm/gtx/string_cast.hpp"
+#include "glm/gtx/vector_angle.hpp"
+#include "glm/gtx/euler_angles.hpp"
+
+#include "Eigen/Dense"
+#include "Eigen/SparseLU"
 
 namespace dcel {
 	// Forward classes

@@ -1,4 +1,3 @@
-#include "pch.h"
 #include "dcel.h"
 
 using namespace dcel;

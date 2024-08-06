@@ -1,5 +1,4 @@
-﻿#include "pch.h"
-#include "dcel-manifold.h"
+﻿#include "dcel-manifold.h"
 
 using namespace dcel;
 
